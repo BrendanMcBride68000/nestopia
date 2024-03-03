@@ -308,7 +308,7 @@ namespace Nes
 
 		Result Apu::SetVolume(const uint channels,const uint volume)
 		{
-			if (volume > 100)
+			if (volume > 200)
 				return RESULT_ERR_INVALID_PARAM;
 
 			bool updated = false;
